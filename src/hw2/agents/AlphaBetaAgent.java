@@ -111,7 +111,7 @@ public class AlphaBetaAgent extends ChessAgent
 					return bestChild
 				}
 				else if(child.getMaxPlayerUtilityValue() < beta {
-					beta = child.getMaxPlayerUtilityValue(;)
+					beta = child.getMaxPlayerUtilityValue();
 				}
 				
 			}	
